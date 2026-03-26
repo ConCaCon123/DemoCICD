@@ -22,7 +22,8 @@ jobs:
 
       # 3. Build project
       - name: "Build Spring Boot"
-        run: mvn clean package -DskipTests
+        run: cd HuynhMinhQuan
+             mvn clean package -DskipTests
 
       # 4. Login Docker Hub bằng Secrets
       - name: "Login Docker Hub"
