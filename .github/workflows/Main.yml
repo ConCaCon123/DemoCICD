@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Buoc 1: Xin Chao
+      - name: "Buoc 1: Xin Chao"
         run: echo "Hello"
 
-      - name: Buoc 2: Tai Code
+      - name: "Buoc 2: Tai Code"
         uses: actions/checkout@v4
 
-      - name: Buoc 3: Doc Code
+      - name: "Buoc 3: Doc Code"
         run: cat README.md
